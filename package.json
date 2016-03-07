@@ -1,0 +1,23 @@
+{
+  "name": "jquery-meteor-blaze-example",
+  "version": "0.0.1",
+  "description": "Sample project showing usage of spacebars-compiler and jquery-meteor-blaze plugin",
+  "author": "eFace2Face, inc. (https://eface2face.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eface2face/jquery-meteor-blaze-example"
+  },
+  "main": "lib/index.js",
+    "dependencies": {
+    "jquery": "^2.1.4",
+    "lodash": "^2.4.1",
+    "jquery-meteor-blaze": "^1.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "git+https://github.com/gulpjs/gulp.git#4.0",
+    "gulp-webserver": "^0.9.1",
+    "spacebars-compiler": "^1.2.0"
+  }
+}
